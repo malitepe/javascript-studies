@@ -1,0 +1,27 @@
+
+string[0]
+string.charAt()
+
+stirng.toUpperCase()
+stirng.toLowerCase()
+
+str.split(',') 
+str.length
+
+string.search() //stirngin yerini söyler
+stirng.slice() //stringin belirli bir kısmını alır
+stirng.indexOf() //verilen char ın indexini verir
+
+string.replace(str1,str2)
+string.includes() // var mı yok mu boolean
+
+//boolean
+str.endsWith(string)
+str.startsWith(string)
+
+ilk harfleri büyük yapmak
+
+let fullName = `
+${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()}
+${lastName[0].toUpperCase()}${lastName.slice(1).toLowerCase}
+`
