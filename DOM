@@ -1,1 +1,27 @@
+Document Object Model
+learn and manipulate page
+
+
+console.log(document.head)
+console.log(document.body)
+console.log(document.location)
+console.log(document.URL)
+console.log(document.baseURI)
+
+let title = document.getElementById('title') //select an object which has id named title 
+console.log(title.innerHTML)
+
+let link = document.querySelector("ul#list>li>a") //take 'a' object inside of ul(id='list')>li
+console.log(title.innerHTML)
+
+//you can change the element's features 
+
+let fullName = prompt("Lutfen Adinizi giriniz: );
+
+let greeting = document.querySelector("#greeting")
+
+greeting.innerHTML = `&{greeting.innerHTML} <small style="color:red"> ${fullName} </small>`
+
+
+
 
