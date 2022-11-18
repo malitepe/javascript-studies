@@ -17,10 +17,35 @@ console.log(title.innerHTML)
 //you can change the element's features 
 
 let fullName = prompt("Lutfen Adinizi giriniz: );
-
 let greeting = document.querySelector("#greeting")
-
 greeting.innerHTML = `&{greeting.innerHTML} <small style="color:red"> ${fullName} </small>`
+
+let lastElement = document.querySelector("ul#list>li:last-child")
+let firstElement = document.querySelector("ul#list>li:first-child")
+
+lastElement.innerHTML == firstElement.innerHTML
+
+// append
+let ulDOM = document.querySelector("ul#list")
+let liDOM = document.querySelector("li")
+
+liDOM.innerHTML = "We created this obj"
+ulDOM.append(liDOM) //add the end of the list
+ulDOM.prepend(liDOM) //add beggining of the list
+
+// DOM with CSS class
+let greeting = document.querySelector("#greeting")
+greeting.classList.add("text-primary"),
+greeting.classList.add("text-sec")
+greeting.classList.add("text-third","text-fourth")
+
+greeting.classList.remove("text-sec")
+console.log(greeting.classList)
+
+
+
+
+
 
 
 
