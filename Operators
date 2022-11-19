@@ -37,6 +37,38 @@ if (username.length > 0){ // u can use (username.length) either
 }
 
 
+//switch case
+
+if(){
+}else if(){
+}else if(){
+}else{}
+
+switch(statement) {
+  case a:
+    // code
+    break;
+  case b:
+    //code
+    break;
+  default:
+    // code
+}
+
+// ternary operator
+//(if statement) ? (true) : (false)
+
+userName ? userName : "username not found"
+
+
+
+
+
+
+
+
+
+
 
 
 
