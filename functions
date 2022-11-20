@@ -1,1 +1,49 @@
+//declaration
 
+function helloWorld(){
+  console.log("Hello World")
+}
+
+//ES6
+//Arrow Functions
+let func = (param1, param2, param3) => expression;
+
+
+//Nested Functions: you can use function in a function
+
+function sayacartir() {
+  let sayac = 0;
+  return function () {    return sayac++;  };
+}
+
+//Recursion
+
+function pow(x, n) {
+  if (n == 1) {    return x;
+  } else {    return x * pow(x, n - 1);  }
+}
+
+
+
+//asynchronous programming
+printScreen1();
+printScreen2();
+printScreen3();
+
+s1
+s3
+s2
+
+//Callback : you can handle AP 
+
+setTimeout(function () {
+      printScreen1();
+      console.log("s2")
+      printScreen3();
+    }, 3000);
+    
+ // fat arrow function
+ const func1 = (name) => { console.log(`Hello ${name}`)}
+ func1("malitepe")
+ 
+ 
