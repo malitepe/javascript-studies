@@ -1,0 +1,10 @@
+//localStorage
+//sessionStorage
+localStorage.setItem('Cat','Dog');
+
+localStorage.getItem('Cat'); // Dog 
+
+localStorage.removeItem("key");
+localStorage.clear();
+
+
