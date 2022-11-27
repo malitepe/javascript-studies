@@ -7,4 +7,15 @@ localStorage.getItem('Cat'); // Dog
 localStorage.removeItem("key");
 localStorage.clear();
 
+//stringify-parse
+
+let user={ username: "mali", isActive:1}
+localStorage.setItem('userInfo',JSON.stringify(user))
+let userInfo = localStorage.getItem('userInfo')
+
+console.log(JSON.parse(userInfo))
+userInfo=JSON.parse(userInfo)
+
+//note that localStorage store data as string
+
 
