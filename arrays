@@ -26,3 +26,9 @@ let sports = ['basketball', 'football', 'tennis' ];
  sports.shift();//delete beginning element of array 
  
  sports[2] = 'judo';//updates element
+ 
+  sports.includes("basketball"); //true
+  sports.slice(0,2)// 'basketball', 'football'
+  sports.join(0,2)// 'basketball', 'football'
+ 
+ 
