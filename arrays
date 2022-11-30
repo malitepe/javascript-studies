@@ -29,6 +29,58 @@ let sports = ['basketball', 'football', 'tennis' ];
  
   sports.includes("basketball"); //true
   sports.slice(0,2)// 'basketball', 'football'
-  sports.join(0,2)// 'basketball', 'football'
+  sports.join()// 'basketball,football,tennis' as a string
+ sports.join(" - ")// 'basketball - football - tennis' as a string
+ 
+ let sports2 = ['baseball', 'other2']
+ let total = sports.concat(sports2)
+ console.log(total)//["basketball","football","tennis","baseball","other2"]
+ 
+ let numbers = [1,2,3];
+ let multiplyBy5 = numbers.map(function(number) {
+    return number*5;
+});
+ 
+ 
+ //some() - every()
+ 
+ const result1 = numbers.some(function(number) {
+    return number <3;
+});// returns true bc there are some numbers lower than 3
+
+ const result2 = numbers.some(function(number) {
+    return number >3;
+});// returns false bc there are some numbers bigger than 3
+ 
+ 
+ const result3 = numbers.every(function(number) {
+    return number > 5;
+}); //false bc not every number bigger than 5
+
+const result4 = numbers.every(function(number) {
+    return number < 5;
+}); //true bc every number lower than 5
+ 
+ 
+let numbers2 = [1,2,3,4,5];
+
+const filteredNumbers = numbers2.filter(function(number) {
+    return number >3;
+});
+
+// filteredNumbers= [4,5]
+ 
+ //.find() returns first element if found otherwise return undefined 
+ //numbers.sort(); convert to string and sorted based on UTF-16 values.
+ 
+ const matrix1 = [
+    ["apple",3],
+    ["banana",5],
+    ["bread", 2]
+];
+ 
+ 
+ 
+ 
  
  
