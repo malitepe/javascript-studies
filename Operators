@@ -61,6 +61,17 @@ switch(statement) {
 userName ? userName : "username not found"
 
 
+//copy string
+
+let Items =[1,2,3]
+let Items2 =[1,2,3]
+
+let es6Items = [...Items]
+let es6Items = [...Items , ...Items2]
+
+
+
+
 
 
 
