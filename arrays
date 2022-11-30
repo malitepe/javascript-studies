@@ -73,6 +73,11 @@ const filteredNumbers = numbers2.filter(function(number) {
  //.find() returns first element if found otherwise return undefined 
  //numbers.sort(); convert to string and sorted based on UTF-16 values.
  
+ numbers.sort(function(a,b) {
+    return a-b;
+});//lowest to biggest
+//b-a biggest to lowest
+ 
  const matrix1 = [
     ["apple",3],
     ["banana",5],
