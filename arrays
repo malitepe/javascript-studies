@@ -1,0 +1,28 @@
+let arr = [1,2,3];
+let arr = [1,2,"stirng statement",false,{title:"coding"}];
+
+console.log( arr[3] );
+console.log( arr[0] );
+
+//matrix
+et arr = [1,2,3,["four","five","six"],7,8];
+console.log(arr[2][0]);
+
+//built in for each statement
+
+arr.forEach((item, index) => {
+  console.log(item, index);
+});
+
+//array manipulations
+
+let sports = ['basketball', 'football', 'tennis' ];
+ sports.push('baseball'); //add end of array
+ sports.unshift('baseball'); //add beginning of array
+ 
+ //splice() method adds and deletes elements at the same time
+ 
+ sports.pop();//delete last element
+ sports.shift();//delete beginning element of array 
+ 
+ sports[2] = 'judo';//updates element
