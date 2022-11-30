@@ -83,6 +83,12 @@ const filteredNumbers = numbers2.filter(function(number) {
     ["banana",5],
     ["bread", 2]
 ];
+
+let numbers2 =[...numbers] //after es6 copy an array
+numbers2=[...numbers , ...numbers] //combine two arrays
+
+//insert element to specific index of array
+numbers.splice(index,deleteCount,insertedValue);
  
  
  
